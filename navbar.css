@@ -1,0 +1,35 @@
+body {
+  padding-top: 70px;
+}
+
+/* Modern shadow and blur for fixed navbar */
+.navbar.fixed-top {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  background: rgba(13,110,253,0.95) !important;
+  backdrop-filter: blur(8px);
+  transition: box-shadow 0.2s;
+}
+/* Common Navbar CSS for all pages */
+.navbar {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+  font-size: 1.05rem;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.navbar .nav-link.active {
+  font-weight: 600;
+  color: #fff !important;
+}
+.navbar .nav-link {
+  color: #e3e3e3 !important;
+  transition: color 0.2s;
+}
+.navbar .nav-link:hover {
+  color: #ffd700 !important;
+}
+.navbar .btn-outline-light {
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
